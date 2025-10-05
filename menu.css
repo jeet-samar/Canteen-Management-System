@@ -1,0 +1,77 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background: url(c3.jpeg)no-repeat;
+  background-position: center;
+  background-size: cover;
+  backdrop-filter: blur(5px);
+  background-color: #181c22;
+  color: #eff2f8;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+.menu-card {
+  background-color: #222833;
+  border-radius: 12px;
+  box-shadow: 0 2px 18px rgba(0,0,0,0.16);
+  color: #eff2f8;
+  padding: 18px 16px;
+  margin-bottom: 18px;
+}
+.card-title, .card-price { font-weight: 600; }
+.card-price { color: #27c96d;}
+.qty-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.qty-btn {
+  width: 32px;
+  height: 32px;
+  font-size: 20px;
+  background: #11141c;
+  color: #eff2f8;
+  border: 1px solid #333a47;
+  border-radius: 7px;
+}
+.qty-input {
+  width: 46px;
+  text-align: center;
+  background: #1d212b;
+  color: #eff2f8;
+  border:none;
+  border-radius:6px;
+  padding: 2px;
+}
+.cart-panel {
+  background: #1d212b;
+  border-radius: 12px;
+  padding: 18px;
+  color:#eff2f8;
+  margin-top: 12px;
+}
+.cart-item-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 7px;
+  border-bottom: 1px dashed #333a47;
+  padding-bottom: 5px;
+}
+.btn-order {
+  background: #5c68e7;
+  color: white;
+  font-weight: 600;
+  border-radius: 9px;
+  font-size: 1.08rem;
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+}
+.cod-label {
+  font-size: 0.98rem;
+  color: #27c96d;
+  font-weight: 500;
+  letter-spacing: .04em;
+}
+.cart-panel{ max-height: 480px; overflow-y: auto; }
