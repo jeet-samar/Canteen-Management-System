@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Order Details</title>
+<link rel="stylesheet" href="order-detail.css">
+</head>
+<body>
+  <div class="order-container">
+    <h1>Your Order Details</h1>
+    <div id="orderItems"></div>
+    <div class="order-summary">
+      <p><span class="order-label">Subtotal:</span> ₹<span id="orderSubtotal">0</span></p>
+      <p><span class="order-label">Delivery:</span> ₹<span id="orderDelivery">0</span></p>
+      <p><span class="order-label">Total:</span> ₹<span id="orderTotal">0</span></p>
+      <p><span class="order-label">Payment Method:</span> <span id="orderPayment"></span></p>
+      <p><span class="order-label">Order Number:</span> <span id="orderToken"></span></p>
+    </div>
+    <button id="backBtn">Back to Menu</button>
+  </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="order-detail.js"></script>
+</body>
+</html>
